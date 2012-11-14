@@ -1,6 +1,0 @@
-sshfs chet@lib-zelda.cair.du.edu:/var/www/bagit/data ~/bagit/data
-
-cd bagit
-fusermount -u ~/bagit/data
-
-
