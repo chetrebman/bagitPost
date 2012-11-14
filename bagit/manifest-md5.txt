@@ -1,0 +1,4 @@
+c9f3bee061825ce50a0110b6841b865d  data/Full_Howe.mp4
+d29700c971c6d6980681caee6d7922db  data/Chapman_Edited_Full.mp4
+0265fb6879f3ea338574935599c363c1  data/Full_Staples.mp4
+6c06d1238232d8d0ac8241ee9a4a6a8f  data/updateTest_batch_NO_MODS_11_9_3.xml

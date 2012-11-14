@@ -1,0 +1,4 @@
+ace0ef9419c8edbe164a888d4e4ab7ee  bagit.txt
+4c12c07a8accd09aa2d6e3fc7a2b7289  manifest-md5.txt
+224e35fffff3b24f79f573d6fb94f3a1  bagit_8-3-2012.zip
+58eb8cbda1386ca1e7c28b2d74c3b9b9  bag-info.txt
