@@ -1,2 +1,0 @@
-sudo mount -t smbfs -o username=cair\\chet.rebman //lib-mithra.cair.du.edu/Special\ Collections  /S_DRIVE/
-
