@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<batch version="2"?
+<batch version="2">
 <ingestControl command="a" type="pidInOBJID">
 
 <!-- Add Metadata and PCOs with the PID contained in the METS OBJID field -->

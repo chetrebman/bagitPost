@@ -1,10 +1,10 @@
 #
 # Mount the bagit/data directory to your web server
 
-sshfs USER@HOST:/var/www/bagit/data ../bagit/data
+sshfs USERNAME@HOSTNAME:/var/www/bagit/data ../SpecialCollectionsBagitIngest/bagit/data
 
 ## To UnMount
 ## cd bagit
-## fusermount -u ~/bagit/data
+## fusermount -u ../SpecialCollectionsBagitIngest/bagit/data/
 
 

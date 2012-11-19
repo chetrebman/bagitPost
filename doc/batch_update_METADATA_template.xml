@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<batch version="2"?
+<batch version="2">
 <ingestControl command="u" type="meta">
 
 <!- This will update the metadata (mods), PID is in OBJID-->
@@ -17,6 +17,21 @@
                          </mets:xmlData>
                 </mets:mdWrap>
         </mets:dmdSec>
+
+<!-- the fileSec below will be ingnored -->
+
+        <mets:fileSec>
+                <mets:fileGrp ID="GR1" USE="master">
+                        <mets:file MIMETYPE="video/mp4" ID="YOUR_PCO_FILE_NAME.mp4">
+                                <mets:FLocat xmlns:xlink="http://www.w3.org/1999/xlink" LOCTYPE="URL" xlink:href="file:YOUR_PCO_FILE_NAME.mp4"></mets:FLocat>
+                        </mets:file>
+                </mets:fileGrp>
+        </mets:fileSec>
+        <mets:structMap TYPE="logical">
+                <mets:div TYPE="section" LABEL="PUT YOUR LABEL HERE" ID="YOUR_PCO_FILE_NAME.id">
+                        <mets:fptr FILEID="YOUR_PCO_FILE_NAME.mp4"></mets:fptr>
+                </mets:div>
+        </mets:structMap>
 
 </mets:mets>
 
